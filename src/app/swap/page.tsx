@@ -395,7 +395,7 @@ export default function SwapPage() {
                   tokenAddress={tokenAddress}
                   chainIdParam={chainIdParam}
                   isMobile={true}
-                  showCopySnippet={true}
+                  showCopySnippet={false}
                     />
               </div>
               {/* Transfers Data */}
@@ -428,7 +428,6 @@ export default function SwapPage() {
                 tokenAddress={tokenAddress}
                 chainIdParam={chainIdParam}
                 isMobile={false}
-                showCopySnippet={true}
                       />
                     </div>
           </div>

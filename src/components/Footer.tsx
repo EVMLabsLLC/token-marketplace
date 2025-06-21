@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <div className="text-xl font-bold mb-2 text-white">thirdweb</div>
-            <p className="text-gray-400 text-sm">© 2025 thirdweb. All rights reserved.</p>
+            <div className="text-xl font-bold mb-2 text-white">rwa.oohhwwee.io</div>
+            <p className="text-gray-400 text-sm">© 2025 Oohhwwee. All rights reserved.</p>
           </div>
           <div className="flex space-x-6">
             <Link href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-150">

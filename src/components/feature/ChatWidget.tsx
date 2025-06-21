@@ -166,6 +166,8 @@ export default function BubbleChatWidget({
       {/* Chat Bubble */}
       {!isOpen && (
         <button
+          type="button"
+          title="Open"
           onClick={() => setIsOpen(true)}
           className="fixed bottom-4 right-4 md:bottom-8 md:right-8 w-14 h-14 md:w-20 md:h-20 bg-black hover:bg-gray-900 text-white rounded-full shadow-lg flex items-center justify-center transition-all duration-200 hover:scale-110 z-50 border border-gray-800"
         >
@@ -196,6 +198,8 @@ export default function BubbleChatWidget({
               </div>
             </div>
             <button
+              type="button"
+              title="Close"
               onClick={() => setIsOpen(false)}
               className="text-gray-400 hover:text-white transition-colors p-2 md:p-2.5 hover:bg-gray-800 rounded-lg"
             >
@@ -270,6 +274,7 @@ export default function BubbleChatWidget({
               />
               <button
                 type="submit"
+                title="Send"
                 disabled={isLoading || !message.trim()}
                 className="px-4 md:px-5 py-3 md:py-4 bg-white text-black rounded-lg md:rounded-xl hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >

@@ -15,12 +15,12 @@ export default function Header() {
               href="/"
               className="flex items-center justify-center text-2xl font-bold"
             >
-              <h1>thirdweb</h1>
+              <h1>rwa.oohhwwee.io</h1>
             </Link>
            
           </div>
           <div className="flex items-center space-x-4">
-            <RewardTokenDisplay />
+            {/* <RewardTokenDisplay />
             <a
               href="https://github.com/thirdweb-example/token-marketplace"
               target="_blank"
@@ -32,12 +32,12 @@ export default function Header() {
                 <Github className="w-5 h-5" />
                 <span>GitHub</span>
               </Button>
-            </a>
+            </a> */}
             <ConnectButton
               client={client}
               appMetadata={{
-                name: "thirdweb App",
-                url: "https://example.com",
+                name: "rwa.oohhwwee.io",
+                url: "https://rwa.oohhwwee.io",
               }}
             />
           </div>

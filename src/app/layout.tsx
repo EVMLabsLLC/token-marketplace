@@ -5,6 +5,7 @@ import "./globals.css";
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ThirdwebProvider } from "thirdweb/react";
 import Footer from "@/components/Footer";
+import BubbleChatWidget from "@/components/feature/ChatWidget";
 import { client } from "./client";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <QueryClientProvider client={queryClient}>
           <ThirdwebProvider>
+            {/* <BubbleChatWidget /> */}
             {children}
             <Footer />
           </ThirdwebProvider>

@@ -15,7 +15,7 @@ export default function PayEmbedWidget({
   tokenAddress,
   chainIdParam,
   isMobile = false,
-  showCopySnippet = true,
+  showCopySnippet = false,
   theme,
   hideTitle = false,
 }: {

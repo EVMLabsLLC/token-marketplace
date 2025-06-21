@@ -15,6 +15,16 @@ import HomePayModal from "@/components/feature/HomePayModal"
 // Hardcoded popular tokens
 const popularTokens = [
   {
+    name: "Splender",
+    symbol: "SPLENDER",
+    price: 0,
+    change24h: 0,
+    icon: "/splendor.svg",
+    chainId: 9226,
+    address: "0x442Ea32772C676b69B73F8E10004b4715aA21F86",
+    iconUrl: "/splendor.svg",
+  },
+  {
     name: "PLUME",
     symbol: "PLUME",
     price: 0,
